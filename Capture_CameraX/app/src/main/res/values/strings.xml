@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Capture_CameraX</string>
+    <string name="takeFoto">Сделать фото</string>
+    <string name="deleteFoto">Удалить фото</string>
+</resources>

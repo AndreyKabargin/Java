@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/ic_menu_gallery"
+    app:flow_horizontalAlign="center"
+    tools:context=".MainActivity">
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/preView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+    </androidx.camera.view.PreviewView>
+
+    <ImageView
+        android:id="@+id/capture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/takeFoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500sp"
+        android:background="@color/transparent"
+        android:backgroundTint="@color/black"
+        android:text="@string/takeFoto" />
+
+    <Button
+        android:id="@+id/deleteFoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550sp"
+        android:text="@string/deleteFoto"
+        android:backgroundTint="@color/black"
+        android:background="@color/transparent"/>
+
+</FrameLayout>
